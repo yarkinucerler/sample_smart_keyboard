@@ -1,0 +1,22 @@
+{
+  "name": "sample_smart_keyboard",
+  "version": "1.0.0",
+  "description": "Sample Smart Keyboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarkinucerler/sample_smart_keyboard.git"
+  },
+  "author": "Yarkın ÜÇERLER <yarkinucerler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yarkinucerler/sample_smart_keyboard/issues"
+  },
+  "homepage": "https://github.com/yarkinucerler/sample_smart_keyboard#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

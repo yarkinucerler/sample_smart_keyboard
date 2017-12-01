@@ -1,0 +1,73 @@
+
+#mc-keyboard { width:320px;height:245px;/*padding:47px 18px 18px 26px;*/position: absolute;top:0;left:0;margin-top:-30px;display:none;background:url(../images/bg-keyboard.png) no-repeat left top; z-index:50;}
+.mc-keyboard-left {float:left;width:325px;}
+
+.mc-keyboard-right {
+	background: url("../images/bg-keyboard.png") no-repeat scroll left top transparent;
+    float: right;
+    height: 219px;
+    padding-top: 42px;
+    width: 320px;
+}
+
+.mc-keyboard-button {
+	color: #FFFFFF;
+    display: inline-block;
+    font-size: 20px;
+    height: 31px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: 86px;
+    cursor:pointer;
+}
+	
+.mc-keyboard-button span {
+	/*background: url("../_i/keyboard/btn-right.png") no-repeat scroll right top transparent;*/
+    display: block;
+    height: 21px;
+}
+
+/*.mc-keyboard-button:hover {background:url(../_i/keyboard/btn-left-over.png) no-repeat left top;}*/
+/*.mc-keyboard-button:hover span {background:url(../_i/keyboard/btn-right-over.png) no-repeat right top;}*/
+.mc-keyboard-row {padding-left: 25px;padding-top:1px;}
+
+
+.btn-hareketli {display:none;}
+#mc-numpad-state {display:none;}
+
+.mc-keyboard-button.pushed {
+	background:url(../images/numpad-hover.png) no-repeat -85px -84px;
+}
+
+.mc-keyboard-button.pushed.but1 {
+	background-position: left 0px;
+}
+
+.mc-keyboard-button.pushed.but10 {
+	background-position: left -42px;
+}
+
+.mc-keyboard-button.pushed.but3 {
+	background-position: -86px 0px;
+}
+
+.mc-keyboard-button.pushed.but6, .mc-keyboard-button.pushed.but9 {
+	background-position: -86px -83px;
+}
+
+.mc-keyboard-button.pushed.but12 {
+	background-position: -86px -42px;
+}
+
+.close-keyboard {
+    background: url("../images/close.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    height: 10px;
+    position: absolute;
+    right: 35px;
+    top: 18px;
+    width: 10px;
+}
